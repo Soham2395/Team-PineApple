@@ -89,7 +89,6 @@ struct WorkoutUIView: View {
                 
                 ScrollView {
                     VStack(spacing: 16) {
-                        // Search Box
                         ZStack(alignment: .leading) {
                             if searchText.isEmpty {
                                 Text("Search")
